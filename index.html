@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA IMC</h1>
+    </header>
+    <main>
+        <form autocomplete="on">
+            <label for="nome">Qual é seu nome?</label>
+            <input type="text" id="nome" placeholder="Ex: Leandro" maxlength="20" required>
+            <label for="altura">Informe sua altura?</label>
+            <input type="number" id="altura" placeholder="Ex: 1.82" maxlength="4" required>
+            <label for="peso">Informe seu peso?</label>
+            <input type="number" id="peso" placeholder="Ex: 74" maxlength="3" required>
+            <input id="send" class="btn" type="submit" value="CALCULAR IMC">
+        </form>
+        <div>
+            <h2 id="nomeUsuario"></h2>
+            <p id="imcUsuario"></p>
+            <p id="abaixoDoPeso"></p>
+            <p id="pesoIdeal"></p>
+            <p id="acimaDoPeso"></p>
+        </div>
+    </main>
+    <footer>
+        <P>© Leandro de Sá</P>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
