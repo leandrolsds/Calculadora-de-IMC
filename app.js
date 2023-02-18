@@ -34,6 +34,9 @@ btn.addEventListener("click", (e) => {
         imcUsuario.innerHTML = "Preencha seu nome!";
     }
 })
-
+const refresh = document.getElementById("limpar_form");
+refresh.addEventListener('click', () => {
+    location.reload()
+})
     
 

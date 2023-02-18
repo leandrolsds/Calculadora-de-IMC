@@ -71,13 +71,13 @@ input::placeholder {
 .btn:hover {
     background-color: rgb(1, 156, 156);
 }
-.limpar_form {
+#limpar_form {
     background-color: rgb(12, 77, 66);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.493);
     border-radius: 10px;
     color: white;
 }
-.limpar_form:hover {
+#limpar_form:hover {
     background-color: rgb(20, 128, 110);;
 }
 div {
